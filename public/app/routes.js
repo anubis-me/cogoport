@@ -18,6 +18,8 @@ var app = angular.module('gameRoutes', ['ngRoute'])
 
            .when('/game', {
                 templateUrl: 'app/views/pages/games.html'
+            }) .when('/contact', {
+                templateUrl: 'app/views/pages/contact.html'
             })
 
 
