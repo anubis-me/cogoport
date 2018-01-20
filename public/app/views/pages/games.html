@@ -48,14 +48,12 @@
     <p><strong>Results: </strong>{{ (findgame.datta | filter: advancedSearchFilter | limitTo: findgame.searchLimit).length }}</p>
 </div>
 
-<!-- Sort Order Notification -->
 <div ng-show="findgame.sort">
     <p><strong>Sort by: </strong>{{findgame.sort }}</p>
 </div>
 
 <br>
 
-<!-- User Management Table -->
 <div class="panel panel-primary">
     <!-- Heading -->
     <div class="panel-heading">

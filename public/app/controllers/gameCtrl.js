@@ -83,8 +83,7 @@ angular.module('gameController',['gameService'])
         app.searchLimit = undefined; // Clear limit on search results
     }
 };
-    // Function: Set sort order of results
-    app.sortOrder = function(order) {
+     app.sortOrder = function(order) {
     app.sort = order; // Assign sort order variable requested by user
     };
 });
