@@ -1,6 +1,6 @@
 var express     = require('express');           // Experss JS Framework
 var app         = express();                    // Invoke express to variable for use in application
-var port        = process.env.PORT || 8800;     // Set default port or assign a port in enviornment
+var port        = process.env.PORT || 8080;     // Set default port or assign a port in enviornment
 var bodyParser  = require('body-parser');       // Parsing middleware. Parses incoming request bodies in a middleware before your handlers, available under req.body.
 var router      = express.Router();             // Invoke the Express Router
 var path        = require('path');              // Import path module

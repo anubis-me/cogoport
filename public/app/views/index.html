@@ -20,6 +20,9 @@
 
     <!-- Angular Service -->
     <script src="app/services/gameServices.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
     <!-- Cascade Style Sheets -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
@@ -60,6 +63,8 @@
 <div >
     <div ng-view ></div>
 </div>
-
+<script>$(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});</script>
 
 </body>
