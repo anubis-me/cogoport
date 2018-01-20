@@ -12,17 +12,13 @@ var app = angular.module('gameRoutes', ['ngRoute'])
             .when('/', {
                 templateUrl: 'app/views/pages/home.html'
             })
+            .when('/about', {
+                templateUrl: 'app/views/pages/about.html'
+            })
 
            .when('/game', {
                 templateUrl: 'app/views/pages/games.html'
             })
-
-
-            .when('/login', {
-                templateUrl: 'app/views/pages/users/login.html',
-                authenticated: false
-            })
-
 
 
             .otherwise({ redirectTo: '/' }); // If user tries to access any other route, redirect to home page
