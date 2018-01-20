@@ -9,7 +9,7 @@ angular.module('gameService',[])
 
 
         gamefactory.getGames = function(gdata) {
-            return $http.get('https://starlord.hackerearth.com/gamesarena',gdata);
+            return $http.get('assets/gamesarena.json',gdata);
         };
         return gamefactory;
     });
